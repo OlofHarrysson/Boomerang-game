@@ -61,8 +61,7 @@ class Boomerang: SKSpriteNode {
             //offset so boomerang spawns where intended
             var xOffset: CGFloat = boomStartx - wayPoints[0].x
             var yOffset: CGFloat = boomStarty - wayPoints[0].y
-
-            
+                        
             for wayP in wayPoints {
                 let point = CGPoint(x: wayP.x + xOffset, y: wayP.y + yOffset)
                 beziPath.addLineToPoint(point)
