@@ -8,13 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		D50E00A419F1D0D900BEA256 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50E00A319F1D0D900BEA256 /* AppDelegate.swift */; };
-		D50E00A619F1D0D900BEA256 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D50E00A519F1D0D900BEA256 /* GameScene.sks */; };
 		D50E00A819F1D0D900BEA256 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50E00A719F1D0D900BEA256 /* GameScene.swift */; };
 		D50E00AA19F1D0D900BEA256 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50E00A919F1D0D900BEA256 /* GameViewController.swift */; };
 		D50E00AD19F1D0D900BEA256 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D50E00AB19F1D0D900BEA256 /* Main.storyboard */; };
 		D50E00AF19F1D0D900BEA256 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D50E00AE19F1D0D900BEA256 /* Images.xcassets */; };
 		D50E00B219F1D0D900BEA256 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D50E00B019F1D0D900BEA256 /* LaunchScreen.xib */; };
 		D50E00BE19F1D0D900BEA256 /* BoomerangTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50E00BD19F1D0D900BEA256 /* BoomerangTests.swift */; };
+		D50E00C819F1D7AD00BEA256 /* Boomerang.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50E00C719F1D7AD00BEA256 /* Boomerang.swift */; };
+		D574101019FAF6A100C4E3D8 /* banksy.png in Resources */ = {isa = PBXBuildFile; fileRef = D574100219FAF6A100C4E3D8 /* banksy.png */; };
+		D574101119FAF6A100C4E3D8 /* boomerang.png in Resources */ = {isa = PBXBuildFile; fileRef = D574100319FAF6A100C4E3D8 /* boomerang.png */; };
+		D574101219FAF6A100C4E3D8 /* deadkangaroo.png in Resources */ = {isa = PBXBuildFile; fileRef = D574100419FAF6A100C4E3D8 /* deadkangaroo.png */; };
+		D574101319FAF6A100C4E3D8 /* deathrattle.wav in Resources */ = {isa = PBXBuildFile; fileRef = D574100519FAF6A100C4E3D8 /* deathrattle.wav */; };
+		D574101419FAF6A100C4E3D8 /* kangaroo.png in Resources */ = {isa = PBXBuildFile; fileRef = D574100619FAF6A100C4E3D8 /* kangaroo.png */; };
+		D574101519FAF6A100C4E3D8 /* srcbanksy.pxm in Resources */ = {isa = PBXBuildFile; fileRef = D574100719FAF6A100C4E3D8 /* srcbanksy.pxm */; };
+		D574101619FAF6A100C4E3D8 /* srcboomerang.pxm in Resources */ = {isa = PBXBuildFile; fileRef = D574100819FAF6A100C4E3D8 /* srcboomerang.pxm */; };
+		D574101719FAF6A100C4E3D8 /* srcdeathrattle.aup in Resources */ = {isa = PBXBuildFile; fileRef = D574100919FAF6A100C4E3D8 /* srcdeathrattle.aup */; };
+		D574101819FAF6A100C4E3D8 /* e0000017.au in Resources */ = {isa = PBXBuildFile; fileRef = D574100D19FAF6A100C4E3D8 /* e0000017.au */; };
+		D574101919FAF6A100C4E3D8 /* e000027f.au in Resources */ = {isa = PBXBuildFile; fileRef = D574100E19FAF6A100C4E3D8 /* e000027f.au */; };
+		D574101A19FAF6A100C4E3D8 /* srckangaroo.pxm in Resources */ = {isa = PBXBuildFile; fileRef = D574100F19FAF6A100C4E3D8 /* srckangaroo.pxm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +42,6 @@
 		D50E009E19F1D0D900BEA256 /* Boomerang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Boomerang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D50E00A219F1D0D900BEA256 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D50E00A319F1D0D900BEA256 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D50E00A519F1D0D900BEA256 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		D50E00A719F1D0D900BEA256 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		D50E00A919F1D0D900BEA256 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		D50E00AC19F1D0D900BEA256 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,6 +50,18 @@
 		D50E00B719F1D0D900BEA256 /* BoomerangTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoomerangTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D50E00BC19F1D0D900BEA256 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D50E00BD19F1D0D900BEA256 /* BoomerangTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoomerangTests.swift; sourceTree = "<group>"; };
+		D50E00C719F1D7AD00BEA256 /* Boomerang.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Boomerang.swift; sourceTree = "<group>"; };
+		D574100219FAF6A100C4E3D8 /* banksy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banksy.png; sourceTree = "<group>"; };
+		D574100319FAF6A100C4E3D8 /* boomerang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boomerang.png; sourceTree = "<group>"; };
+		D574100419FAF6A100C4E3D8 /* deadkangaroo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deadkangaroo.png; sourceTree = "<group>"; };
+		D574100519FAF6A100C4E3D8 /* deathrattle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = deathrattle.wav; sourceTree = "<group>"; };
+		D574100619FAF6A100C4E3D8 /* kangaroo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kangaroo.png; sourceTree = "<group>"; };
+		D574100719FAF6A100C4E3D8 /* srcbanksy.pxm */ = {isa = PBXFileReference; lastKnownFileType = file; path = srcbanksy.pxm; sourceTree = "<group>"; };
+		D574100819FAF6A100C4E3D8 /* srcboomerang.pxm */ = {isa = PBXFileReference; lastKnownFileType = file; path = srcboomerang.pxm; sourceTree = "<group>"; };
+		D574100919FAF6A100C4E3D8 /* srcdeathrattle.aup */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = srcdeathrattle.aup; sourceTree = "<group>"; };
+		D574100D19FAF6A100C4E3D8 /* e0000017.au */ = {isa = PBXFileReference; lastKnownFileType = audio.au; path = e0000017.au; sourceTree = "<group>"; };
+		D574100E19FAF6A100C4E3D8 /* e000027f.au */ = {isa = PBXFileReference; lastKnownFileType = audio.au; path = e000027f.au; sourceTree = "<group>"; };
+		D574100F19FAF6A100C4E3D8 /* srckangaroo.pxm */ = {isa = PBXFileReference; lastKnownFileType = file; path = srckangaroo.pxm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,12 +104,13 @@
 			isa = PBXGroup;
 			children = (
 				D50E00A319F1D0D900BEA256 /* AppDelegate.swift */,
-				D50E00A519F1D0D900BEA256 /* GameScene.sks */,
 				D50E00A719F1D0D900BEA256 /* GameScene.swift */,
+				D50E00C719F1D7AD00BEA256 /* Boomerang.swift */,
 				D50E00A919F1D0D900BEA256 /* GameViewController.swift */,
 				D50E00AB19F1D0D900BEA256 /* Main.storyboard */,
 				D50E00AE19F1D0D900BEA256 /* Images.xcassets */,
 				D50E00B019F1D0D900BEA256 /* LaunchScreen.xib */,
+				D574100119FAF6A100C4E3D8 /* Resourses */,
 				D50E00A119F1D0D900BEA256 /* Supporting Files */,
 			);
 			path = Boomerang;
@@ -116,6 +139,48 @@
 				D50E00BC19F1D0D900BEA256 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D574100119FAF6A100C4E3D8 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				D574100219FAF6A100C4E3D8 /* banksy.png */,
+				D574100319FAF6A100C4E3D8 /* boomerang.png */,
+				D574100419FAF6A100C4E3D8 /* deadkangaroo.png */,
+				D574100519FAF6A100C4E3D8 /* deathrattle.wav */,
+				D574100619FAF6A100C4E3D8 /* kangaroo.png */,
+				D574100719FAF6A100C4E3D8 /* srcbanksy.pxm */,
+				D574100819FAF6A100C4E3D8 /* srcboomerang.pxm */,
+				D574100919FAF6A100C4E3D8 /* srcdeathrattle.aup */,
+				D574100A19FAF6A100C4E3D8 /* srcdeathrattle_data */,
+				D574100F19FAF6A100C4E3D8 /* srckangaroo.pxm */,
+			);
+			path = Resourses;
+			sourceTree = SOURCE_ROOT;
+		};
+		D574100A19FAF6A100C4E3D8 /* srcdeathrattle_data */ = {
+			isa = PBXGroup;
+			children = (
+				D574100B19FAF6A100C4E3D8 /* e00 */,
+			);
+			path = srcdeathrattle_data;
+			sourceTree = "<group>";
+		};
+		D574100B19FAF6A100C4E3D8 /* e00 */ = {
+			isa = PBXGroup;
+			children = (
+				D574100C19FAF6A100C4E3D8 /* d00 */,
+			);
+			path = e00;
+			sourceTree = "<group>";
+		};
+		D574100C19FAF6A100C4E3D8 /* d00 */ = {
+			isa = PBXGroup;
+			children = (
+				D574100D19FAF6A100C4E3D8 /* e0000017.au */,
+				D574100E19FAF6A100C4E3D8 /* e000027f.au */,
+			);
+			path = d00;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,10 +263,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D574101819FAF6A100C4E3D8 /* e0000017.au in Resources */,
+				D574101519FAF6A100C4E3D8 /* srcbanksy.pxm in Resources */,
+				D574101A19FAF6A100C4E3D8 /* srckangaroo.pxm in Resources */,
+				D574101319FAF6A100C4E3D8 /* deathrattle.wav in Resources */,
+				D574101419FAF6A100C4E3D8 /* kangaroo.png in Resources */,
+				D574101619FAF6A100C4E3D8 /* srcboomerang.pxm in Resources */,
+				D574101919FAF6A100C4E3D8 /* e000027f.au in Resources */,
 				D50E00B219F1D0D900BEA256 /* LaunchScreen.xib in Resources */,
+				D574101119FAF6A100C4E3D8 /* boomerang.png in Resources */,
+				D574101019FAF6A100C4E3D8 /* banksy.png in Resources */,
+				D574101719FAF6A100C4E3D8 /* srcdeathrattle.aup in Resources */,
 				D50E00AF19F1D0D900BEA256 /* Images.xcassets in Resources */,
-				D50E00A619F1D0D900BEA256 /* GameScene.sks in Resources */,
 				D50E00AD19F1D0D900BEA256 /* Main.storyboard in Resources */,
+				D574101219FAF6A100C4E3D8 /* deadkangaroo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D50E00C819F1D7AD00BEA256 /* Boomerang.swift in Sources */,
 				D50E00A819F1D0D900BEA256 /* GameScene.swift in Sources */,
 				D50E00AA19F1D0D900BEA256 /* GameViewController.swift in Sources */,
 				D50E00A419F1D0D900BEA256 /* AppDelegate.swift in Sources */,
@@ -413,6 +489,7 @@
 				D50E00C319F1D0D900BEA256 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D50E00C419F1D0D900BEA256 /* Build configuration list for PBXNativeTarget "BoomerangTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +498,7 @@
 				D50E00C619F1D0D900BEA256 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
